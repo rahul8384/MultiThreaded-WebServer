@@ -11,20 +11,28 @@ This repository contains implementations of both single-threaded and multi-threa
   Performance Testing: JMeter scripts for testing.
   
 # Installation & Usage
-  Prerequisites
+  # Prerequisites
   Java (JDK 8+)
+  
   Apache JMeter 5.6.3 (my version)
+  
   make your own jmeter test plan is recommended for no issues
   
 # Running the Single-threaded Server
 cd single-threaded
+
 javac Server.java Client.java
+
 java Server
 
 # Running the Multi-threaded Server
 
 cd multi-threaded
+
 javac Server.java Client.java
+
 java Server
+
 Running the Client
+
 java Client
